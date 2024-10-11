@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>new project</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="asset/css/bootstrap.css">
+
+  <!-- font css -->
+  <link rel="stylesheet" href="asset/fontowsome/css/all.min.css">
+  <!-- main css -->
+  <link rel="stylesheet" href="asset/css/style.css">
+</head>
+
+
+<body>
+  <!-- navbar start -->
+  <header class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="asset/images/Vector.png" alt="">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              post
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              page
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <form action="">
+          <button class="btn search-btn" data-bs-toggle="modal" data-bs-target="#exampleModal"><i
+              class="fa-solid fa-magnifying-glass"></i></button>
+          <button class="btn login-btn text-white">Login</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <!-- navbar end-->
+  <!-- search modal -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title fs-5 h1" id="exampleModalLabel">search Hear</p>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Type Your Word Hear...</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- banner area start -->
+  <section class="banner ">
+    <div class="container position-relative">
+      <div class="img-area ">
+        <img src="asset/images/Group 14.png" class="rounded-3 img-fluid " alt="img">
+      </div>
+      <!-- slide -->
+      <div id="carouselExample" class="carousel slide side-img">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="asset/images/Group 9.jpg" class="rounded-3 img-fluid pt-5 " alt="logo">
+          </div>
+          <div class="carousel-item">
+            <img src="asset/images/Group 9.jpg" class="d-block img-fluid pt-5 rounded-3" alt="logo">
+          </div>
+          <div class="carousel-item">
+            <img src="asset/images/Group 9.jpg" class="d-block img-fluid pt-5" alt="logo">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- banner area end -->
+  <!-- Articles area start-->
+  <section class="articles section-mar-top">
+    <div class="container">
+      <div class="same-title">
+        <h2>Most Featured Articles</h2>
+      </div>
+      <div class="row articles-item">
+        <div class="item-box col-lg-4 col-md-6">
+          <img src="asset/images/Mask Group.png" class="img-fluid" alt="logo">
+          <span>Lightweight Grippable and ready.</span>
+          <p>Savannah Nguyen</p>
+        </div>
+        <div class="item-box col-lg-4 col-md-6">
+          <img src="asset/images/Mask Group-1.png" class="img-fluid" alt="logo">
+          <span>Lightweight Grippable and ready.</span>
+          <p>Savannah Nguyen</p>
+        </div>
+        <div class="item-box col-lg-4 col-md-6 ">
+          <img src="asset/images/Mask Group-1.png" class="img-fluid" alt="logo">
+          <span>Lightweight Grippable and ready.</span>
+          <p>Savannah Nguyen</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Articles area end-->
+  <!-- articles topic area start -->
+  <section class="articles-topic section-mar-top">
+    <div class="container">
+      <div class=" row articles-box">
+        <div class=" col-lg-6">
+          <h2>Latest Articles Topics</h2>
+        </div>
+        <div class="col-lg-6 articles-topic-menu">
+          <ul>
+            <li><a id="active" href="@">Lifestyle</a></li>
+            <li><a href="#">Travel</a></li>
+            <li><a href="#">Technology</a></li>
+            <li><a href="#">Search Engines</a></li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="row main-box">
+        <div class="col-lg-8">
+          <div class="article-test">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div>
+                  <img class="img-fluid" src="./asset/images/1.png" alt="image">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="position-relative text-area">
+                  <strong>Life Style</strong>
+                  <p>20 Jan 2021</p>
+                  <h3>Most Refined Mountaineering
+                    EquipmenA Design.</h3>
+                  <img src="asset/images/Mask Group (7).png" alt="logo">
+                  <spen>Esther Howard</spen>
+                  <span class="bottn"></span>
+                  <p class="p-teg">4m 30S read</p>
+                  <div class="icon">
+                    <ul class="d-flex">
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="article-test">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div>
+                  <img src="asset/images/Mask Group (2).png" alt="">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="position-relative text-area">
+                  <strong>Life Style</strong>
+                  <p>20 Jan 2021</p>
+                  <h3>Most Refined Mountaineering
+                    EquipmenA Design.</h3>
+                  <img src="asset/images/Mask Group (7).png" alt="logo">
+                  <spen>Esther Howard</spen>
+                  <span class="bottn"></span>
+                  <p class="p-teg">4m 30S read</p>
+                  <div class="icon">
+                    <ul class="d-flex">
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="article-test">
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div>
+                  <img src="./asset/images/Mask Group (4).png" alt="image">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12">
+                <div class="position-relative  text-area">
+                  <strong>Life Style</strong>
+                  <p>20 Jan 2021</p>
+                  <h3>Most Refined Mountaineering
+                    EquipmenA Design.</h3>
+                  <img src="asset/images/Mask Group (7).png" alt="logo">
+                  <spen>Esther Howard</spen>
+                  <span class="bottn"></span>
+                  <p class="p-teg">4m 30S read</p>
+                  <div class="icon">
+                    <ul class="d-flex">
+                      <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                      <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+        <div class="col-lg-4 ">
+          <div class="flex-wrap side-two ">
+            <span class="d-block">Recent Blog</span>
+            <img class="img-fluid" src="asset/images/Mask Group (1).png" alt="">
+          </div>
+          <div class="flex-wrap side-two ">
+            <img class="img-fluid" src="asset/images/Mask Group (3).png" alt="">
+          </div>
+          <div class="flex-wrap side-two ">
+            <img class="img-fluid" src="asset/images/Mask Group (5).png" alt="">
+          </div>
+          <div class="flex-wrap side-two ">
+            <img class="img-fluid" src="asset/images/Mask Group (6).png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="viwo">
+        <a href="#">Viwo All</a></span>
+      </div>
+    </div>
+  </section>
+  <!-- articles topic area end -->
+
+  <!-- video area start -->
+  <section class="video">
+    <div class="container">
+      <div class="same-title">
+        <h2>Latest Trending
+          Video</h2>
+      </div>
+      <div class="row mt-4 img-area">
+        <div class="col-lg-6">
+          <div>
+            <img src="asset/images/Group 444.png" alt="imges">
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="mb-4">
+            <img src="asset/images/Group 440.png" alt="imges">
+          </div>
+          <div>
+            <img src="asset/images/Group 441 (1).png" alt="imges">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- video area end-->
+  <!-- Categories area start -->
+  <section class="Categories">
+    <div class="container">
+      <div class="same-title">
+        <h2>Latest Categories</h2>
+      </div>
+      <div class="row img-area">
+        <div class="col-lg-3 col-md-6 mt-4">
+          <img src="asset/images/Group 451.png" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <img src="asset/images/Group 447.png" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <img src="asset/images/Group 447 (1).png" alt="">
+        </div>
+        <div class="col-lg-3 col-md-6 mt-4">
+          <img src="asset/images/Group 447 (2).png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Categories area start -->
+  <!-- Regular Updete latest News area start -->
+  <section class="regular">
+    <div class="container">
+      <div>
+        <div class="same-title">
+          <h2 class="h2-tag">Regular Updete latest News area start</h2>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <form action="">
+              <input type="email" placeholder="Entar your email">
+              <button>Subscribe</button>
+            </form>
+            <p>Established fact will that a reader will subscripton on your services.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Regular Updete latest News area start -->
+  <!-- footer area startc -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-2">
+          <h5>How it works</h5>
+          <ul>
+            <li>Home</li>
+            <li>Contact</li>
+            <li>About Us</li>
+            <li>Cookie Policy</li>
+          </ul>
+        </div>
+        <div class="col-lg-2">
+          <h5>Navigation</h5>
+          <ul>
+            <li>Life Style</li>
+            <li>Travel</li>
+            <li>Search Engines</li>
+            <li>SEO</li>
+          </ul>
+        </div>
+        <div class="col-lg-1"></div>
+        <div class="col-lg-2">
+          <h5>Featured</h5>
+          <ul>
+            <li>Shortcodes</li>
+            <li>Custom widgets</li>
+            <li>Try it for free</li>
+            <li>Updete Video</li>
+
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <div class="last">
+            <h5>Subscribe</h5>
+            <form action="">
+              <div class="input-group">
+                <input type="email" placeholder="Email address">
+                <i class="fa-solid fa-arrow-right"></i>
+              </div>
+            </form>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+              looking at its
+              layout</p>
+          </div>
+        </div>
+        <div class="abu">
+          <p>© 2024. All rights reserved Abu Sufian</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+  <!-- footer area startc -->
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
